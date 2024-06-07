@@ -87,7 +87,6 @@ const store = createStore({
                 console.log(error.response.data); // TODO
                 alert('회원가입에 실패했습니다.(' + error.response.data.code +')');
             });
-
         },
 
     }
